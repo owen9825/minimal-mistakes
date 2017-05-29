@@ -47,24 +47,20 @@ $type-size-8                : 0.625em !default;  // ~10px
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288 !default;
-$dark-gray                  : mix(#000, $gray, 40%) !default;
-$darker-gray                : mix(#000, $gray, 60%) !default;
-$light-gray                 : mix(#fff, $gray, 50%) !default;
-$lighter-gray               : mix(#fff, $gray, 90%) !default;
+$background-color           : #882D61 !default;
+$body-color                 : #882D61 !default;
+$code-background-color      : #EF72B9 !default;
+$code-background-color-dark : #C24E90 !default;
+$text-color                 : #260819 !default;
+$border-color               : #4F1536 !default;
 
-$body-color                 : #fff !default;
-$background-color           : #fff !default;
-$code-background-color      : #fafafa !default;
-$code-background-color-dark : $light-gray !default;
-$text-color                 : $dark-gray !default;
-$border-color               : $lighter-gray !default;
-
-$primary-color              : #7a8288 !default;
-$success-color              : #62c462 !default;
-$warning-color              : #f89406 !default;
-$danger-color               : #ee5f5b !default;
-$info-color                 : #52adc8 !default;
+/* These are for text */
+$primary-color              : #33001a !default;
+$primary-hover-color        : #660033 !default;
+$success-color              : #6fc2cd !default;
+$warning-color              : #7a5d1a !default;
+$danger-color               : #af36c6 !default;
+$info-color                 : #5d1431 !default;
 
 /* brands */
 $behance-color              : #1769FF !default;
@@ -95,8 +91,14 @@ $link-color                 : $info-color !default;
 $link-color-hover           : mix(#000, $link-color, 25%) !default;
 $link-color-visited         : mix(#fff, $link-color, 25%) !default;
 $masthead-link-color        : $primary-color !default;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%) !default;
+$masthead-link-color-hover  : $primary-hover-color !default;
 
+/* replacements for gray */
+$gray                       : $primary-color !default;
+$dark-gray                  : #753057 !default;
+$darker-gray                : #5b2544 !default;
+$light-gray                 : #993f72 !default;
+$lighter-gray               : #ac4a81 !default;
 
 /*
    Breakpoints
