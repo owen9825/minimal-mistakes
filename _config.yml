@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Tanuki AI | Hospitality software"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Tanuki"
+description              : "Tanuki AI offers the sight capacity of robots to improve hospitality, especially at the favourite places of tanukis − bars and izakayas."
+url                      : "http://tanuki.ai"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "owen9825/minimal-mistakes-tanuki"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -48,14 +48,14 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
+google_site_verification : "0A7lujqdMfsMCZG3xbUnpd2LT4ECBCXrKqScuG4nvNE"
+bing_site_verification   : "7D866336EBF5D0BAD8327269CD856D25"
 alexa_site_verification  :
-yandex_site_verification :
+yandex_site_verification : "3a75bcf8604c5496"
 
 # Social Sharing
 twitter:
-  username               :
+  username               : kokociel1
 facebook:
   username               :
   app_id                 :
@@ -77,11 +77,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Owen Miller"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "CTO"
+  location         : "New York"
+  email            : owen9825@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -95,7 +95,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  pinterest        :
+  pinterest        : owen9825
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
