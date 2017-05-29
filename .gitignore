@@ -16,3 +16,4 @@ npm-debug.log*
 env/
 s3_website.yml
 bin/
+vendor/
