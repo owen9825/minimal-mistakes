@@ -9,7 +9,7 @@
 locale                   : "en"
 title                    : "Tanuki AI | Hospitality software"
 title_separator          : "-"
-name                     : "Tanuki"
+name                     : "Tanuki AI"
 description              : "Tanuki AI offers the sight capacity of robots to improve hospitality, especially at the favourite places of tanukis − bars and izakayas."
 url                      : "http://tanuki.ai"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -55,7 +55,7 @@ yandex_site_verification : "3a75bcf8604c5496"
 
 # Social Sharing
 twitter:
-  username               : kokociel1
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -79,10 +79,12 @@ analytics:
 author:
   name             : "Owen Miller"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "CTO"
+  bio              : "Founder, CTO"
   location         : "New York"
   email            : owen9825@gmail.com
-  uri              :
+  pgp              : "/assets/pgp.txt"
+  blog             : "http://kokociel.com"
+  uri              : "http://owen.engineer"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -94,13 +96,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/owen-miller-12112273/
   pinterest        : owen9825
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : kokociel1
   vine             :
   weibo            :
   xing             :
@@ -184,6 +186,7 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - s3_website
 
 # mimic GitHub Pages with --safe
 whitelist:

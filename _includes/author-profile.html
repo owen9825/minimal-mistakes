@@ -34,10 +34,18 @@
         </li>
       {% endif %}
 
+      {% if author.blog %}
+        <li>
+          <a href="{{ author.blog }}" itemprop="url">
+            <i class="fa fa-fw fa-memo" aria-hidden="true"></i> {{ "kokociel.com" }}
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url">
-            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
+            <i class="fa fa-fw fa-memo" aria-hidden="true"></i> {{ "owen.engineer" }}
           </a>
         </li>
       {% endif %}
@@ -47,6 +55,14 @@
           <a href="mailto:{{ author.email }}">
             <meta itemprop="email" content="{{ author.email }}" />
             <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.pgp %}
+        <li>
+          <a href="{{ author.pgp }}" itemprop="url">
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="false"></i> {{ "PGP Key" }}
           </a>
         </li>
       {% endif %}
